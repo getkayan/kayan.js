@@ -1,0 +1,26 @@
+{
+    "name": "kayan.js",
+    "version": "1.0.0",
+    "description": "Node.js TypeScript SDK for Kayan",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "ts-node src/test-sdk.ts"
+    },
+    "keywords": [
+        "kayan",
+        "sdk",
+        "authentication"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.6.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.0"
+    }
+}
