@@ -2,6 +2,14 @@ export interface KayanConfig {
     baseURL: string;
 }
 
+export interface Identity {
+    id: string;
+    traits: Record<string, any>;
+    roles?: string[]; // strings mostly
+    created_at: string;
+    // ... other fields
+}
+
 export interface RegistrationRequest {
     traits: Record<string, any>;
     password: string;
